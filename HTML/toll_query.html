@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Toll Query</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+  <a href="index2.html" style="font-size:25px;color:black;vertical-align:text-top">Home</a>
+    <form action="toll_query.php" method="post">
+      <h1>Select Vehicle Type:</h1><br>
+	  <div class="form-group">
+      <select name="vehicle" class="form-control">
+        <option value="1">Car/Van</option>
+        <option value="2">Bus/Truck</option>
+      </select>
+	  </div>
+      <h1>Enter City 1:</h1><br>
+      <div class="form-group">
+	  <select name="city1" class="form-control">
+          <option value="bhopal">Bhopal</option>
+          <option value="indore">Indore</option>
+          <option value="gwalior">Gwalior</option>
+          <option value="jabalpur">Jabalpur</option>
+          <option value="ratlam">Ratlam</option>
+          <option value="betul">Betul</option>
+          <option value="khajuraho">Khajuraho</option>
+          <option value="Guna">Guna</option>
+          <option value="Panna">Panna</option>
+          <option value="Ujjain">Ujjain</option>
+      </select></div><br><br><br>
+      <h1>Enter City 2:</h1><br>
+      <div class="form-group"><select name="city2" class="form-control">
+          <option value="bhopal">Bhopal</option>
+          <option value="indore">Indore</option>
+          <option value="gwalior">Gwalior</option>
+          <option value="jabalpur">Jabalpur</option>
+          <option value="ratlam">Ratlam</option>
+          <option value="betul">Betul</option>
+          <option value="khajuraho">Khajuraho</option>
+          <option value="Guna">Guna</option>
+          <option value="Panna">Panna</option>
+          <option value="Ujjain">Ujjain</option>
+      </select></div><br><br><br>
+      <input type="submit" name="Submit" value="Submit">
+    </form>
+  </body>
+</html>
