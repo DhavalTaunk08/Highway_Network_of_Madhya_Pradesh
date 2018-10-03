@@ -1,2 +1,1 @@
-"# Highway_Network_of_Madhya_Pradesh" 
-"# Highway_Network_of_Madhya_Pradesh" 
+This project aims to create a web portal that could help tourists travel from one city to another in MP. In this web portal, the user can know the distance, actual path, and approximate travel expense he/she has to bear while travelling through road
