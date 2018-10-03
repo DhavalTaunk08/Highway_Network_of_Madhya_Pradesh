@@ -1,0 +1,84 @@
+
+.footer {
+  background-color: black;
+  color:white;
+   /*margin:30px 30px 10px 50px;  
+   */}
+
+.jumbotron {
+ 
+ 
+  background: #9575CD;
+  color: floralwhite; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+color: #0f0f0f; }
+.cardDisplay
+{
+background-color:black;
+color:white;
+}
+
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+ width: 100%;
+  height: auto;
+  transition: 1s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -70%);
+  -ms-transform: translate(-70%, -70%)
+}
+
+.container1:hover .image {
+  opacity: 0.6;
+}
+
+.container1:hover .middle {
+  opacity: 1.5;
+}
+
+.text {
+  background-color: rgba(0,0,0,0.0);
+  color: black;
+  font-size: 25px;
+  padding: 16px 32px;
+}
+#myDIV {
+    width: 1000px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.0);
+	font-weight:bolder;
+	font-size:100px;
+	font-family:fantasy;
+	font-stretch:normal;
+    color: white;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 10s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {box-shadow: 10px 20px 30px blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+	0%  {color:white;}
+    50% {color:grey;}
+
+	100% {color:black;}
+}
